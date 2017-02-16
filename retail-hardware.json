@@ -1,0 +1,75 @@
+{
+  "invoiceInfo": {
+    "invoiceType": "SCHEDULED",
+    "invoiceNumber": "987654321",
+    "billingAcccountNumber": "522092",
+    "issueTimeInMillis": "1480579200000",
+    "dueDateInMillis": "1483171200000",
+    "totalAmountInMicros": "1000000",
+    "totalAmountCurrencyCode": "USD",
+    "taxAssessment": [{
+      "taxCategory": 14,
+      "taxAmountInMicros": "2000",
+      "taxAmountCurrencyCode": "USD",
+      "effectiveRatePercentage": "0.456"
+    }, {
+      "taxCategory": 15,
+      "taxAmountInMicros": "1000",
+      "taxAmountCurrencyCode": "USD",
+      "effectiveRatePercentage": "1.23"
+    }],
+    "legalAddress": {
+      "countryNameCode": "US",
+      "administrativeAreaName": "FL",
+      "localityName": "Key West",
+      "postalCodeNumber": "33040",
+      "addressLine": ["907 Whitehead St"],
+      "firmName": "Writers Guild",
+      "recipientName": "Ernest Miller Hemingway"
+    },
+    "billToAddress": {
+      "countryNameCode": "RU",
+      "administrativeAreaName": "CA",
+      "localityName": "Mountain View",
+      "postalCodeNumber": "94024",
+      "addressLine": ["1600 Amphitheatre Parkway"],
+      "firmName": "Test Inc2",
+      "recipientName": "Bort Johnston"
+    },
+    "billFromAddress": {
+      "countryNameCode": "US",
+      "administrativeAreaName": "CA",
+      "localityName": "Mountain View",
+      "postalCodeNumber": "94043",
+      "addressLine": ["1600 Amphitheatre Pkwy"],
+      "languageCode": "US",
+      "firmName": "Google Inc"
+    },
+    "remitToAddress": {
+      "countryNameCode": "US",
+      "administrativeAreaName": "CA",
+      "localityName": "San Francisco",
+      "postalCodeNumber": "94139",
+      "addressLine": ["Dept. 33654", "P.O. Box 39000"],
+      "languageCode": "US",
+      "firmName": "Google Inc."
+    },
+    "googleTaxId": "77-0493581",
+    "paymentTerms": 30
+  },
+  "lineItemInfo": [{
+    "transactionIdLineitemId": "transactionId",
+    "movementId": "movementId",
+    "description": "description",
+    "amountInMicros": "1000000",
+    "currencyCode": "USD",
+    "poNumber": "poNumber",
+    "quantityInMicros": "1000000",
+    "unitPriceInMicros": "3000000",
+    "unitPriceCurrencyCode": "USD",
+    "shipToAddress": {
+      "countryNameCode": "US",
+      "localityName": "Irvine"
+    }
+  }]
+}
