@@ -1,22 +1,22 @@
 {
   "invoiceInfo": {
     "invoiceType": "SCHEDULED",
-    "invoiceNumber": "423423423",
-    "billingAcccountNumber": "522382",
+    "invoiceNumber": "987654321",
+    "billingAcccountNumber": "502685",
     "issueTimeInMillis": "1480579200000",
     "dueDateInMillis": "1483171200000",
     "totalAmountInMicros": "1000000",
     "totalAmountCurrencyCode": "USD",
     "taxAssessment": [{
-      "taxCategory": 14,
-      "taxAmountInMicros": "2000",
-      "taxAmountCurrencyCode": "USD",
-      "effectiveRatePercentage": "0.456"
-    }, {
       "taxCategory": 15,
-      "taxAmountInMicros": "1000",
+      "taxAmountInMicros": "10000000",
       "taxAmountCurrencyCode": "USD",
       "effectiveRatePercentage": "1.23"
+    }, {
+      "taxCategory": 14,
+      "taxAmountInMicros": "20000000",
+      "taxAmountCurrencyCode": "USD",
+      "effectiveRatePercentage": "0.456"
     }],
     "legalAddress": {
       "countryNameCode": "US",
@@ -28,12 +28,12 @@
       "recipientName": "Ernest Miller Hemingway"
     },
     "billToAddress": {
-      "countryNameCode": "US",
+      "countryNameCode": "RU",
       "administrativeAreaName": "CA",
       "localityName": "Mountain View",
       "postalCodeNumber": "94024",
       "addressLine": ["1600 Amphitheatre Parkway"],
-      "firmName": "Test Inc4",
+      "firmName": "Test Inc2",
       "recipientName": "Bort Johnston"
     },
     "billFromAddress": {
@@ -63,6 +63,24 @@
     "description": "description",
     "amountInMicros": "1000000",
     "currencyCode": "USD",
-    "poNumber": "poNumber"
+    "poNumber": "poNumber",
+    "quantityInMicros": "1000000",
+    "unitPriceInMicros": "3000000",
+    "unitPriceCurrencyCode": "USD",
+    "shipToAddress": {
+      "countryNameCode": "US",
+      "localityName": "Irvine"
+    },
+    "taxAssessment": [{
+      "taxCategory": 15,
+      "taxAmountInMicros": "1000000",
+      "taxAmountCurrencyCode": "USD",
+      "effectiveRatePercentage": "1.23"
+    }, {
+      "taxCategory": 14,
+      "taxAmountInMicros": "2000000",
+      "taxAmountCurrencyCode": "USD",
+      "effectiveRatePercentage": "0.456"
+    }]
   }]
 }
