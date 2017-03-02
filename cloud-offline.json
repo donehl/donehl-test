@@ -58,7 +58,7 @@
     "paymentTerms": 30
   },
   "lineItemInfo": [{
-    "transactionIdLineitemId": "transactionId",
+    "transactionIdLineItemId": "transactionId.lineItemId",
     "movementId": "movementId",
     "description": "description",
     "amountInMicros": "1000000",
